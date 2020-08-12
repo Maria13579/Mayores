@@ -8,16 +8,17 @@ namespace proyecto_mayores
 {
     class Mayores
     {
-        public int MayorAB (int a, int b);
+      public int MayorAB(int a, int b)
         {
-          if (a>b)
+            if (a > b)
             {
-             return a;
+                return a;
             }
-          else
+            else
             {
-          return b;
+                return b;
             }
         }
+
     }
 }
